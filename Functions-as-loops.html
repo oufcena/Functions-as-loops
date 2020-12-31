@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Functions as loops</h1> 
+
+<script>
+function loop(num) {
+  
+  if(num) { 
+    alert(num);
+    num--;
+  } else {
+    return false;
+  }
+    
+  loop(num);
+} loop(5);
+</script>
+
+</body>
+</html>
